@@ -499,14 +499,19 @@ h3 {
 
 .slide {
   flex: 0 0 100%;
-  aspect-ratio: 1 / 1;
-  max-height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f5f5f5;
+  border-radius: 12px;
 }
 
 .slide img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+  max-width: 100%;
+  max-height: 550px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
   display: block;
   border-radius: 12px;
 }
@@ -574,7 +579,7 @@ h3 {
     order: 1;
   }
   
-  .slide {
+  .slide img {
     max-height: 350px;
   }
   
@@ -879,7 +884,7 @@ h3 {
   border: 4px solid var(--primary-accent);
   border-radius: 50%;
   cursor: pointer;
-  z-index: 10;
+  z-index: 5;
   transition: all 0.3s ease;
 }
 
@@ -892,6 +897,7 @@ h3 {
 .hotspot:hover {
   transform: scale(1.2);
   background: var(--primary-accent);
+  z-index: 100;
 }
 
 .hotspot-pulse {
@@ -904,6 +910,12 @@ h3 {
   border-radius: 50%;
   opacity: 0;
   animation: pulse 2s infinite;
+  pointer-events: none;
+}
+
+.hotspot:hover .hotspot-pulse {
+  animation: none;
+  opacity: 0;
 }
 
 @keyframes pulse {
@@ -926,9 +938,10 @@ h3 {
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
   opacity: 0;
   visibility: hidden;
-  transition: var(--transition-slow);
-  z-index: 20;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+  z-index: 101;
   text-align: left;
+  pointer-events: none;
 }
 
 .hotspot:hover .hotspot-tooltip {
