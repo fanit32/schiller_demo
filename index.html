@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Schiller Water Bikes | Премиальные водные велосипеды</title>
+    <meta
+      name="description"
+      content="Исследуйте S1-C — премиальный водный велосипед. Сочетание технологий и портативности. Будущее водного велоспорта."
+    />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Inter:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header-container">
+        <div class="logo">
+          <img
+            src="https://schillerbikes.com/wp-content/uploads/2017/05/schiller-header-logo.png"
+            alt="Schiller Logo"
+          />
+        </div>
+        <nav class="nav">
+          <ul class="nav-links">
+            <li><a href="#technology">Технологии</a></li>
+            <li><a href="#specs">Характеристики</a></li>
+            <li><a href="#gallery">Галерея</a></li>
+          </ul>
+        </nav>
+        <div class="header-right">
+          <a href="#" class="btn btn-accent header-btn">КУПИТЬ СЕЙЧАС</a>
+          <button class="burger" id="burger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <section class="hero">
+        <div class="hero-bg">
+          <img
+            src="https://schillerbikes.com/wp-content/uploads/2022/05/schillerbikes__dsc8394.jpg"
+            alt="Schiller Water Bike Hero"
+          />
+        </div>
+        <div class="hero-content container">
+          <h1 class="fade-in">SCHILLER <a href="#technology" class="hero-link">S1-C</a></h1>
+          <p class="fade-in delay-1">
+            Самый совершенный водный велосипед в мире. Сочетание премиального дизайна, скорости и свободы на воде.
+          </p>
+          <div class="hero-actions fade-in delay-2">
+            <a href="#" class="btn btn-accent btn-large"><i class="fa-solid fa-cart-shopping"></i> ЗАКАЗАТЬ</a>
+            <button class="video-play-btn" id="open-video">
+              <span class="play-icon"><i class="fa-solid fa-play"></i></span>
+              СМОТРЕТЬ ВИДЕО
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Benefit Grid -->
+      <section id="benefits" class="benefits">
+        <div class="container benefit-grid">
+          <div class="benefit-card reveal">
+            <img
+              src="https://schillerbikes.com/wp-content/uploads/2017/04/schiller-icons-weight-2-1-e1494107397542.png"
+              alt="Weight Icon"
+            />
+            <h3>МАКСИМАЛЬНАЯ ПОДДЕРЖКА</h3>
+            <p>Рама шириной 2 дюйма выдерживает нагрузку до 136 кг.</p>
+          </div>
+          <div class="benefit-card reveal">
+            <img
+              src="https://schillerbikes.com/wp-content/uploads/2017/04/schiller-icons-time-2-e1494107437708.png"
+              alt="Time Icon"
+            />
+            <h3>БЫСТРАЯ СБОРКА</h3>
+            <p>Сборка и разборка менее чем за 10 минут.</p>
+          </div>
+          <div class="benefit-card reveal">
+            <img
+              src="https://schillerbikes.com/wp-content/uploads/2017/04/schiller-icons-storage-2-e1494107453196.png"
+              alt="Storage Icon"
+            />
+            <h3>УДОБНОЕ ХРАНЕНИЕ</h3>
+            <p>Компактный размер обеспечивает удобство хранения.</p>
+          </div>
+          <div class="benefit-card reveal">
+            <img
+              src="https://schillerbikes.com/wp-content/uploads/2017/04/schiller-icons-transport-2-e1494107472187.png"
+              alt="Transport Icon"
+            />
+            <h3>ЛЕГКАЯ ТРАНСПОРТИРОВКА</h3>
+            <p>Помещается в багажник большинства автомобилей без багажника.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Interactive Bike Section -->
+      <section id="technology" class="bike-interactive reveal">
+        <div class="container">
+          <h2 class="section-title">КЛЮЧЕВЫЕ ТЕХНОЛОГИИ</h2>
+          <div class="hotspot-container">
+            <img
+              src="https://schillerbikes.com/wp-content/uploads/2017/05/schiller-hotspot-product.png"
+              alt="Schiller S1-C Bike"
+              class="bike-img"
+            />
+            
+            <!-- 1. Handlebars (Responsive Steering) -->
+            <div class="hotspot" id="hotspot-steering">
+              <div class="hotspot-pulse"></div>
+              <div class="hotspot-tooltip left">
+                <h4>ОТЗЫВЧИВОЕ УПРАВЛЕНИЕ</h4>
+                <p>Интегрированное управление и движение; поворачивать так же легко, как на обычном велосипеде. Реверсивное педалирование позволяет совершать развороты на месте.</p>
+              </div>
+            </div>
+
+            <!-- 2. Front Head Tube (Engineered for Speed) -->
+            <div class="hotspot" id="hotspot-speed">
+              <div class="hotspot-pulse"></div>
+              <div class="hotspot-tooltip right">
+                <h4>СОЗДАН ДЛЯ СКОРОСТИ</h4>
+                <p>Передаточное число 1:7,5 для высокой тяги; скорость более 16 км/ч; оснащен карбоновыми ремнями Gates Carbon Drive.</p>
+              </div>
+            </div>
+
+            <!-- 3. Main Frame (Durable Frame) -->
+            <div class="hotspot" id="hotspot-frame">
+              <div class="hotspot-pulse"></div>
+              <div class="hotspot-tooltip right">
+                <h4>ПРОЧНАЯ РАМА</h4>
+                <p>Рама из алюминия T6 с тиговой сваркой, анодированием и порошковым покрытием для защиты от коррозии и долговечности.</p>
+              </div>
+            </div>
+
+            <!-- 4. Outdrive -->
+            <div class="hotspot" id="hotspot-outdrive">
+              <div class="hotspot-pulse"></div>
+              <div class="hotspot-tooltip left">
+                <h4>РЕВОЛЮЦИОННЫЙ ПРИВОД</h4>
+                <p>Привод Schiller S1 автоматически убирается при выходе на берег, обеспечивая долговечность и простоту использования на мелководье.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Technical Specs -->
+      <section id="specs" class="specs">
+        <div class="container">
+          <h2 class="section-title">ТЕХНИЧЕСКИЕ ХАРАКТЕРИСТИКИ</h2>
+          <div class="specs-grid">
+            <div class="spec-item">
+              <span class="spec-label">ГАБАРИТЫ (Д×Ш)</span>
+              <span class="spec-value">380 × 160 см</span>
+            </div>
+            <div class="spec-item">
+              <span class="spec-label">ВЕС (S / L)</span>
+              <span class="spec-value">39.7 кг / 40.0 кг</span>
+            </div>
+            <div class="spec-item">
+              <span class="spec-label">РАМА</span>
+              <span class="spec-value">Алюминий T6 с защитой</span>
+            </div>
+            <div class="spec-item">
+              <span class="spec-label">ПРИВОД (1:7,5)</span>
+              <span class="spec-value">Gates Carbon Drive</span>
+            </div>
+            <div class="spec-item">
+              <span class="spec-label">МАКС. НАГРУЗКА</span>
+              <span class="spec-value">136 кг</span>
+            </div>
+            <div class="spec-item">
+              <span class="spec-label">МАКС. СКОРОСТЬ</span>
+              <span class="spec-value">До 16 км/ч</span>
+            </div>
+            <div class="spec-item">
+              <span class="spec-label">ВРЕМЯ СБОРКИ</span>
+              <span class="spec-value">Менее 10 минут</span>
+            </div>
+            <div class="spec-item">
+              <span class="spec-label">УРОВЕНЬ ШУМА</span>
+              <span class="spec-value">Бесшумный</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- S1-C in Action Slider -->
+      <section id="gallery" class="gallery reveal">
+        <div class="container">
+          <h2 class="section-title">S1-C В ДЕЙСТВИИ</h2>
+          <div class="slider">
+            <button class="slider-btn slider-btn-prev" id="slider-prev">
+              <i class="fa-solid fa-chevron-left"></i>
+            </button>
+            <div class="slider-viewport">
+              <div class="slider-track" id="slider-track">
+                <div class="slide"><img src="Фото/slider/462363944_18460038226031651_7814005273523818556_n.webp" alt="Schiller in Action 1"></div>
+                <div class="slide"><img src="Фото/slider/469167648_18471534931031651_7036111140746671835_n.webp" alt="Schiller in Action 3"></div>
+                <div class="slide"><img src="Фото/slider/469260585_18471535249031651_519127041676665082_n.webp" alt="Schiller in Action 4"></div>
+                <div class="slide"><img src="Фото/slider/469261388_18471534919031651_943937218108007068_n.webp" alt="Schiller in Action 5"></div>
+                <div class="slide"><img src="Фото/slider/469446377_18471537343031651_7021279187420401368_n.webp" alt="Schiller in Action 6"></div>
+                <div class="slide"><img src="Фото/slider/469491111_18471535261031651_6184787609610703679_n.webp" alt="Schiller in Action 7"></div>
+                <div class="slide"><img src="Фото/slider/469491961_18471802219031651_3732585766069393043_n.webp" alt="Schiller in Action 8"></div>
+                <div class="slide"><img src="Фото/slider/474095611_9315204338502628_8501035902263112735_n.webp" alt="Schiller in Action 9"></div>
+                <div class="slide"><img src="Фото/slider/66334-17089855.webp" alt="Schiller in Action 10"></div>
+              </div>
+            </div>
+            <button class="slider-btn slider-btn-next" id="slider-next">
+              <i class="fa-solid fa-chevron-right"></i>
+            </button>
+          </div>
+          <div class="slider-dots" id="slider-dots"></div>
+        </div>
+      </section>
+
+      <!-- CTA Communication -->
+      <section id="contact" class="cta-contact reveal">
+        <div class="container">
+          <h2>СВЯЖИТЕСЬ С НАМИ</h2>
+          <p>Оставьте заявку или напишите нам в мессенджеры для консультации</p>
+          <div class="cta-buttons">
+            <a href="tel:+70000000000" class="btn-contact call">
+              <span class="icon"><i class="fa-solid fa-phone"></i></span> ПОЗВОНИТЬ
+            </a>
+            <a href="https://t.me/schiller" target="_blank" class="btn-contact telegram">
+              <span class="icon"><i class="fa-brands fa-telegram"></i></span> TELEGRAM
+            </a>
+            <a href="https://wa.me/70000000000" target="_blank" class="btn-contact whatsapp">
+              <span class="icon"><i class="fa-brands fa-whatsapp"></i></span> WHATSAPP
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-content">
+        <div class="footer-top">
+            <div class="footer-logo">
+                <img src="https://schillerbikes.com/wp-content/uploads/2017/05/schiller-header-logo.png" alt="Schiller Logo">
+            </div>
+            <nav class="footer-nav">
+                <ul class="footer-links">
+                    <li><a href="#technology">Технологии</a></li>
+                    <li><a href="#specs">Характеристики</a></li>
+                    <li><a href="#gallery">Галерея</a></li>
+                </ul>
+            </nav>
+            <div class="footer-contact">
+                <a href="tel:+70000000000" class="footer-phone">+7 (000) 000-00-00</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="legal-info">
+                <p>ООО «РОГА И КОПЫТА»</p>
+                <p>ИНН: 0000000000 | ОГРН: 0000000000000</p>
+            </div>
+            <p class="copyright">&copy; 2026 Schiller Official. Премиальные водные велосипеды.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Video Modal -->
+    <div class="video-modal" id="video-modal">
+      <div class="modal-overlay"></div>
+      <div class="modal-content">
+        <button class="modal-close" id="close-video">✕</button>
+        <div class="video-wrapper">
+          <iframe 
+            id="video-iframe"
+            src="" 
+            frameborder="0" 
+            allow="autoplay; fullscreen; picture-in-picture" 
+            allowfullscreen>
+          </iframe>
+        </div>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
